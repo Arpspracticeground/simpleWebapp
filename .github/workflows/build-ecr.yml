@@ -26,6 +26,5 @@ jobs:
 
       - name: Build and push image
         run: |
-          docker build -t demo-app .
-          docker tag demo-app:latest <ECR_URI>:latest
+          docker build -t python-app .
           docker push <ECR_URI>:latest
