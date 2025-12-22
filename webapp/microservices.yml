@@ -21,7 +21,7 @@ spec:
             - containerPort: 8080
           securityContext:
             runAsNonRoot: true
-            runAsUser: appuser
+            runAsUser: 1000
           
 
 ---
